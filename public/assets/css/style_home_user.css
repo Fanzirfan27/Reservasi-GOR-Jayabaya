@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    color: #333;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 50px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+.nav-links a.active {
+    font-weight: 700;
+    border-bottom: 2px solid #000;
+}
+
+.btn-daftar {
+    background-color: #23a455;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 5px;
+}
+
+.menu-icon {
+    display: none;
+}
+.logo img {
+    height: 100px;
+}
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background: url("../image/Gor-Jayabaya-Kediri.jpg") center/cover no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-top: 80px;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0.9) 25%,
+        transparent 80%
+    );
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.hero-text {
+    max-width: 500px;
+}
+
+.hero h1 {
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 25px;
+    color: #555;
+}
+
+.btn-green {
+    background-color: #23a455;
+    color: white;
+    padding: 12px 24px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: 600;
+}
+
+.features {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.features img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.tentang {
+    padding: 50px 100px;
+    background-color: #fff;
+}
+
+.tentang h2 {
+    font-size: 1.8rem;
+    margin-bottom: 5px;
+}
+
+.garis-aktif {
+    width: 50px;
+    height: 3px;
+    background-color: #23a455;
+    margin-bottom: 20px;
+}
+
+.tentang p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.steps {
+    list-style: none;
+    padding-left: 0;
+}
+
+.steps li {
+    margin-bottom: 10px;
+    font-size: 0.95rem;
+}
+
+.text-green {
+    color: #23a455;
+}
